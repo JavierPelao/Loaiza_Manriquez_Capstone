@@ -45,7 +45,7 @@ La solución sigue una arquitectura **cliente-servidor**, con una aplicación An
 
 La aplicación, desarrollada en Kotlin y Jetpack Compose, se comunica por HTTPS con los servicios de autenticación y datos de Supabase. La información persistente se almacena en **PostgreSQL**, donde las políticas **RLS** controlan el acceso a los registros personales. Para las operaciones que lo requieren, el backend utiliza funciones PostgreSQL y **Edge Functions**. Las integraciones externas del diseño contemplan **Open Food Facts** para productos alimentarios y **Groq API** para análisis apoyados por IA.
 
-
+https://github.com/JavierPelao/Loaiza_Manriquez_Capstone/blob/786448df20a44d44e52db6f0ebd96352211f257b/Fase%202/Evidencias%20de%20Proyecto/Up%20Up%20Progress!%20%C2%B7%20Arquitectura%20visual%20.png
 
 Entre las entidades principales del modelo de datos se encuentran `profiles`, `user_goals`, `routines`, `exercises`, `workout_sessions`, `performed_sets`, `body_weight_logs`, `food_products` y `food_entries`.
 
