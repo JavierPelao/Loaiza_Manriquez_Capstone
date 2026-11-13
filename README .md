@@ -45,9 +45,7 @@ La solución sigue una arquitectura **cliente-servidor**, con una aplicación An
 
 La aplicación, desarrollada en Kotlin y Jetpack Compose, se comunica por HTTPS con los servicios de autenticación y datos de Supabase. La información persistente se almacena en **PostgreSQL**, donde las políticas **RLS** controlan el acceso a los registros personales. Para las operaciones que lo requieren, el backend utiliza funciones PostgreSQL y **Edge Functions**. Las integraciones externas del diseño contemplan **Open Food Facts** para productos alimentarios y **Groq API** para análisis apoyados por IA.
 
-![Arquitectura de Up Up Progress!: aplicación Android, Supabase Cloud, PostgreSQL, Edge Functions y servicios externos](assets/arquitectura-upup-progress.png)
 
-*Figura 1. Arquitectura de Up Up Progress! — aplicación móvil, Supabase Cloud y servicios externos.*
 
 Entre las entidades principales del modelo de datos se encuentran `profiles`, `user_goals`, `routines`, `exercises`, `workout_sessions`, `performed_sets`, `body_weight_logs`, `food_products` y `food_entries`.
 
